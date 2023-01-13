@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bad Pagination Example</title>
+    <style>
+      ul {
+        display: flex;
+        gap: 12px;
+        list-style: none;
+        padding: 0;
+      }
+
+      button {
+        padding: 12px;
+        font-size: 18px;
+        background-color: transparent;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>An "Accessible" Pagination</h1>
+
+    <ul>
+      <li>
+        <form>
+          <input type="hidden" name="page" value="1" />
+          <button>1</button>
+        </form>
+      </li>
+      <li>
+        <form>
+          <input type="hidden" name="page" value="2" />
+          <button>2</button>
+        </form>
+      </li>
+      <li>
+        <form>
+          <input type="hidden" name="page" value="3" />
+          <button>3</button>
+        </form>
+      </li>
+      <li>
+        <form>
+          <input type="hidden" name="page" value="4" />
+          <button>4</button>
+        </form>
+      </li>
+      <li>
+        <form>
+          <input type="hidden" name="page" value="5" />
+          <button>5</button>
+        </form>
+      </li>
+    </ul>
+    
+    <br>
+    <br>
+    
+    <a href="https://github.com/break-stuff/bad-pagination/index.html">View Source Code on GitHub</a>
+  </body>
+</html>
